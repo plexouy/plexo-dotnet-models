@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Plexo.Models</PackageId>
+    <Version>1.1.5</Version>
+    <Authors>Plexo, Santiago Navatta</Authors>
+    <Description>Plexo-dotnet-models is a .NET Standard library for the Plexo API.  (Official Library)</Description>
+    <AssemblyName>Plexo.Models</AssemblyName>
+    <PackageId>Plexo.Models</PackageId>
+    <PackageTags>plexo;payment;credit;cards;money;gateway</PackageTags>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Properties\**" />
+    <EmbeddedResource Remove="Properties\**" />
+    <None Remove="Properties\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+</Project>
