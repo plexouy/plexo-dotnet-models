@@ -1,4 +1,4 @@
-﻿using System.Runtime.Serialization;
+using System.Runtime.Serialization;
 
 namespace Plexo.Models.Instruments
 {
@@ -11,6 +11,7 @@ namespace Plexo.Models.Instruments
         [EnumMember] Debit = 3,
         [EnumMember] Credit = 4,
         [EnumMember] Prepaid = 6,
-        [EnumMember] Unknown = 0
+        [EnumMember] Unknown = 0,
+        [EnumMember] Bank = 8
     }
 }

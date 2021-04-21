@@ -7,6 +7,10 @@ namespace Plexo.Models.Exceptions
 {
     public class ResultCodeException : Exception
     {
+        public bool IsErrorLogged { get; set; } = false;
+
+        public Exception OriginalException { get; set; }
+
         public ResultCodeException(ResultCodes code, params (string language, string message)[] errormessages)
         {
             Code = code;

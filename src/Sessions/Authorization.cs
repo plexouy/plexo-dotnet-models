@@ -22,6 +22,7 @@ namespace Plexo.Models.Sessions
 
         [DataMember] public string ExtendableInstrumentToken { get; set; }
 
-        [DataMember] public bool DoNotUseCallback { get; set; }
+        [DataMember] public bool? DoNotUseCallback { get; set; }
+        [DataMember] public int? OptionalCommerceId { get; set; }
     }
 }

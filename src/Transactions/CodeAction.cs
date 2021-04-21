@@ -1,4 +1,4 @@
-﻿using System.Runtime.Serialization;
+using System.Runtime.Serialization;
 
 namespace Plexo.Models.Transactions
 {
@@ -8,7 +8,8 @@ namespace Plexo.Models.Transactions
         [EnumMember] Query,
         [EnumMember] Pay,
         [EnumMember] Deny,
-        [EnumMember] EndCancelation
+        [EnumMember] EndCancelation,
+        [EnumMember] Void
     }
 
     [DataContract]

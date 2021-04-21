@@ -7,5 +7,6 @@ namespace Plexo.Models.Transactions
     public class CancelRequest : Reference
     {
         [DataMember] public string ClientReferenceId { get; set; }
+        [DataMember] public int? OptionalClientId { get; set; }
     }
 }

@@ -8,6 +8,7 @@ namespace Plexo.Models.Common
         [EnumMember] PlexoTransactionId,
         [EnumMember] ClientPurchaseReferenceId,
         [EnumMember] ClientCancelReferenceId,
-        [EnumMember] ClientReserveReferenceId
+        [EnumMember] ClientReserveReferenceId,
+        [EnumMember] ClientRefundReferenceId
     }
 }

@@ -4,7 +4,7 @@ using Plexo.Models.Common;
 namespace Plexo.Models.Common
 {
     [DataContract]
-    public class ServerSignedRequest<T> : SignedObject<T>
+    public class ServerSignedCallback<T> : SignedObject<T>
     {
     }
 }

@@ -1,4 +1,4 @@
-﻿using System.Runtime.Serialization;
+using System.Runtime.Serialization;
 // ReSharper disable InconsistentNaming
 
 namespace Plexo.Models.Common
@@ -24,6 +24,7 @@ namespace Plexo.Models.Common
         FirstName,
         LastName,
         City,
+        State,
 
         //New OptionalFields
         Country = 0x0201,
