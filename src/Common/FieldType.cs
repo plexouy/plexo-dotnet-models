@@ -76,14 +76,14 @@ namespace Plexo.Models.Common
         CommerceCity,
         CommerceRUT,
         SubCommerceAddress,
-        AggregatorId,   //PaymentFacilitator 
-        SubmerchantId,  //PaymentFacilitator 
+        AggregatorId,   //PaymentFacilitator
+        SubmerchantId,  //PaymentFacilitator
         PaymentFacilitatorId,
         PaymentFacilitatorCommerceId,
         PaymentFacilitatorIntegratorId,
         AvailableBanks,
+        CommerceIssuerInstallments,
 
-         
         //Secure Information Starts at 0x8100  //Private Flag + User Flag
         //Secure User Generic Information
         Pan = 0x8101,
