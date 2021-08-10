@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models.Transactions;
+using Plexo.Models;
 
-namespace Plexo.Models.Transactions
+namespace Plexo.Models
 {
     public class TransactionQuery
     {

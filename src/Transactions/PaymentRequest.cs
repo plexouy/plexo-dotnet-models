@@ -1,9 +1,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models.Instruments;
-using Plexo.Models.Transactions;
 
-namespace Plexo.Models.Transactions
+namespace Plexo.Models
 {
     [DataContract]
     public class PaymentRequest

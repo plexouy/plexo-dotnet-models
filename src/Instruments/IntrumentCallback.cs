@@ -1,8 +1,6 @@
 ﻿using System.Runtime.Serialization;
-using Plexo.Models.Instruments;
-using Plexo.Models.Sessions;
 
-namespace Plexo.Models.Instruments
+namespace Plexo.Models
 {
     [DataContract]
     public class IntrumentCallback : InstrumentWithMetadata

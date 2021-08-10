@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Plexo.Models.Transactions
+namespace Plexo.Models
 {
     [DataContract]
     public enum TransactionType

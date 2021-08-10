@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Plexo.Models.Common;
+using Plexo.Models;
 
-namespace Plexo.Models.Exceptions
+namespace Plexo.Models
 {
     public class ResultCodeException : Exception
     {

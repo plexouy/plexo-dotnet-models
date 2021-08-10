@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Plexo.Models.Instruments
+namespace Plexo.Models
 {
     [DataContract]
     public class BlacklistRequest

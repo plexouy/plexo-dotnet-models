@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace Plexo.Models.Sessions
+namespace Plexo.Models
 {
     [DataContract]
     [Flags]

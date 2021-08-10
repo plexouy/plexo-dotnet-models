@@ -1,6 +1,4 @@
-using Plexo.Models.Common;
-using Plexo.Models.Exceptions;
-namespace Plexo.Models.Exceptions
+namespace Plexo.Models
 {
     public class FingerprintException : ResultCodeException
     {

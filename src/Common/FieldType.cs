@@ -1,7 +1,7 @@
 using System.Runtime.Serialization;
 // ReSharper disable InconsistentNaming
 
-namespace Plexo.Models.Common
+namespace Plexo.Models
 {
     [DataContract]
     public enum FieldType

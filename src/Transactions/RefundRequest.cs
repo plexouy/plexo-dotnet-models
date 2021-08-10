@@ -1,7 +1,7 @@
 using System.Runtime.Serialization;
-using Plexo.Models.Common;
+using Plexo.Models;
 
-namespace Plexo.Models.Transactions
+namespace Plexo.Models
 {
     [DataContract]
     public class RefundRequest : Reference

@@ -1,6 +1,6 @@
-using Plexo.Models.Common;
+using Plexo.Models;
 
-namespace Plexo.Models.Exceptions
+namespace Plexo.Models
 {
     public class SignatureException : ResultCodeException
     {

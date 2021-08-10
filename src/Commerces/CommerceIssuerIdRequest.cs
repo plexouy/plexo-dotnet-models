@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Plexo.Models.Commerces
+namespace Plexo.Models
 {
     [DataContract]
     public class CommerceIssuerIdRequest

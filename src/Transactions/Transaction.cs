@@ -1,11 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models.Commerces;
-using Plexo.Models.Common;
-using Plexo.Models.Issuers;
-using Plexo.Models.Transactions;
 
-namespace Plexo.Models.Transactions
+namespace Plexo.Models
 {
     [DataContract]
     public class Transaction

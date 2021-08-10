@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Plexo.Models.Instruments
+namespace Plexo.Models
 {
     [DataContract]
     public enum CardStatus

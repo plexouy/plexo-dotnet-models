@@ -1,7 +1,7 @@
 using System.Collections.Generic;
-using Plexo.Models.Common;
+using Plexo.Models;
 
-namespace Plexo.Models.Issuers
+namespace Plexo.Models
 {
     public class BankDto
     {

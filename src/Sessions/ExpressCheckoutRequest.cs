@@ -1,8 +1,6 @@
 using System.Runtime.Serialization;
-using Plexo.Models.Sessions;
-using Plexo.Models.Transactions;
 
-namespace Plexo.Models.Sessions
+namespace Plexo.Models
 {
     [DataContract]
     public class ExpressCheckoutRequest
@@ -13,4 +11,6 @@ namespace Plexo.Models.Sessions
         [DataMember]
         public PaymentRequest PaymentData { get; set; }
     }
+
+
 }

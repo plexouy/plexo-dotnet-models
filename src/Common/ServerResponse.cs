@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models.Common;
+using Plexo.Models;
 
-namespace Plexo.Models.Common
+namespace Plexo.Models
 {
     [DataContract]
     public class ServerResponse<T> : ServerResponse

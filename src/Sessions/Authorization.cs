@@ -1,9 +1,7 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models.Common;
-using Plexo.Models.Sessions;
 
-namespace Plexo.Models.Sessions
+namespace Plexo.Models
 {
     [DataContract]
     public class Authorization : AuthorizationInfo
@@ -24,5 +22,10 @@ namespace Plexo.Models.Sessions
 
         [DataMember] public bool? DoNotUseCallback { get; set; }
         [DataMember] public int? OptionalCommerceId { get; set; }
+
+        [DataMember] public WebFormSettings WebFormSettings { get; set; }
+        [DataMember] public List<string> LimitBanks { get; set; }
+
     }
+
 }

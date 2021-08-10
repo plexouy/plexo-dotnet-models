@@ -1,10 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models.Common;
-using Plexo.Models.Instruments;
-using Plexo.Models.Issuers;
 
-namespace Plexo.Models.Instruments
+namespace Plexo.Models
 {
     [DataContract]
     public class PaymentInstrument

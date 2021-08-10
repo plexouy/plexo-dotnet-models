@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace Plexo.Models.Common
+namespace Plexo.Models
 {
     [DataContract]
     public class Currency

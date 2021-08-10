@@ -1,7 +1,7 @@
 ﻿using System.Runtime.Serialization;
-using Plexo.Models.Sessions;
+using Plexo.Models;
 
-namespace Plexo.Models.Instruments
+namespace Plexo.Models
 {
     [DataContract]
     public class DeleteInstrumentRequest : AuthorizationInfo
