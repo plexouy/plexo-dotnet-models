@@ -2,9 +2,9 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Plexo.Models</PackageId>
-    <Version>1.1.13</Version>
+    <Version>1.1.15</Version>
     <Authors>Plexo, Santiago Navatta</Authors>
-    <Description>Plexo-dotnet-models is a .NET Standard library for the Plexo API Models.  (Official Library)</Description>
+    <Description>Plexo-dotnet-models is a .NET Standard library for the Plexo API Models.</Description>
     <AssemblyName>Plexo.Models</AssemblyName>
     <PackageId>Plexo.Models</PackageId>
     <PackageTags>plexo;payment;credit;cards;money;gateway</PackageTags>

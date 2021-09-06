@@ -7,6 +7,6 @@ namespace Plexo.Models
     {
         [DataMember] public UIOptions UI { get; set; } // Opciones generales de UI
         [DataMember] public ExpressCheckoutSettings ExpressCheckout { get; set; }  // Opciones especificas de ExpressCheckout
+        [DataMember] public TokenizationSettings Tokenization { get; set; } // Opciones especificas de Tokenization
     }
-
 }
