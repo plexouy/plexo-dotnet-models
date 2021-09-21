@@ -2,7 +2,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Plexo.Models</PackageId>
-    <Version>1.1.16</Version>
+    <Version>1.1.17</Version>
     <Authors>Plexo, Santiago Navatta</Authors>
     <Description>Plexo-dotnet-models is a .NET Standard library for the Plexo API Models.</Description>
     <AssemblyName>Plexo.Models</AssemblyName>
