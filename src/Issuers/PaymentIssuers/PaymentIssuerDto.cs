@@ -63,8 +63,6 @@ namespace Plexo.Models
     {
         public string Name { get; set; }
         public FieldType Type { get; set; }
-        public string Value { get; set; }
-        public string Width { get; set; } = "normal";
     }
 
     public class CommerceField
