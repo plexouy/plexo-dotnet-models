@@ -1,4 +1,4 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
 
 namespace Plexo.Models
@@ -39,5 +39,6 @@ namespace Plexo.Models
         [DataMember] public PaymentCode PaymentCode { get; set; }
 
         [DataMember] public long UTCUnixTimeExpiration { get; set; }
+        [DataMember] public decimal? LoyaltyProgramAmount { get; set; }
     }
 }

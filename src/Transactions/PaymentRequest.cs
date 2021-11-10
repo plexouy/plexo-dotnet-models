@@ -25,7 +25,7 @@ namespace Plexo.Models
         [DataMember] public string OptionalMetadata { get; set; }
         [DataMember] public string OptionalProvidedCode { get; set; }
 
-        [DataMember]
-        public string OptionalExternalPaymentInfo { get; set; }
+        [DataMember] public string OptionalExternalPaymentInfo { get; set; }
+        [DataMember] public decimal? LoyaltyProgramAmount { get; set; }
     }
 }
