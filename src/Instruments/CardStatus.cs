@@ -11,4 +11,21 @@ namespace Plexo.Models
         [EnumMember] Disabled,
         [EnumMember] WaitingForConfirmation
     }
+
+    [DataContract]
+    public enum InstrumentStatusEnum
+    {
+        [EnumMember]
+        Created,
+        [EnumMember]
+        WarningExpirationInLessThanOneMonth,
+        [EnumMember]
+        Expired,
+        [EnumMember]
+        Disabled,
+        [EnumMember]
+        WaitingForConfirmation,
+        [EnumMember]
+        Deleted
+    }
 }
