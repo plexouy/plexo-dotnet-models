@@ -1,4 +1,4 @@
-﻿using System.Runtime.Serialization;
+using System.Runtime.Serialization;
 
 namespace Plexo.Models
 {
@@ -8,6 +8,7 @@ namespace Plexo.Models
         [EnumMember] Ok = 0,
         [EnumMember] Started = 1,
         [EnumMember] Pending = 2,
+        [EnumMember] Created= 3,
         [EnumMember] Denied = 10,
         [EnumMember] Expired = 20,
         [EnumMember] NotProcessed = 21,
