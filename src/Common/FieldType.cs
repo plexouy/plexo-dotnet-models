@@ -102,5 +102,13 @@ namespace Plexo.Models
         AuthServiceXid = 0x902,
         AuthServiceEciRaw = 0x903,
         AuthServiceCavv = 0x904,
+
+        //Prosa
+        FIID = 0x905,
+        Auth3DSEciRaw = 0x906,
+        Auth3DSServiceCavv = 0x907,
+        Auth3DSServiceXid = 0x908,
+        Auth3DSStatus = 0x909,
+        Network = 0x910,
     }
 }
