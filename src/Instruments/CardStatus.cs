@@ -9,7 +9,9 @@ namespace Plexo.Models
         [EnumMember] WarningExpirationInLessThanOneMonth,
         [EnumMember] Expired,
         [EnumMember] Disabled,
-        [EnumMember] WaitingForConfirmation
+        [EnumMember] WaitingForConfirmation,
+        [EnumMember] Deleted,
+        [EnumMember] AuthenticationFailed,
     }
 
     [DataContract]
@@ -26,6 +28,8 @@ namespace Plexo.Models
         [EnumMember]
         WaitingForConfirmation,
         [EnumMember]
-        Deleted
+        Deleted,
+        [EnumMember]
+        AuthenticationFailed
     }
 }

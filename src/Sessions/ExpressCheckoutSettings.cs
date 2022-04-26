@@ -6,6 +6,6 @@ namespace Plexo.Models
     public class ExpressCheckoutSettings
     {
         [DataMember] public DisplayOptions Display { get; set; }
+        [DataMember] public BuiltInPagesOptions BuiltInPages { get; set; }
     }
-
 }
