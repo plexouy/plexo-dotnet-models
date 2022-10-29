@@ -6,16 +6,16 @@ namespace Plexo.Models
     public class BankDto
     {
         public int Id { get; set; }
-        public string Pattern { get; set; }
+        public string? Pattern { get; set; }
         public string Name { get; set; }
         public string ShortName { get; set; }
-        public bool Prepaid { get; set; }
-        public string Type { get; set; } // credit, debit
-        public bool LockedPurchases { get; set; } // Requiere habilitar homebanking ej itau
-        public string ExternalId { get; set; }
-        public string PictureUrl { get; set; }
+        public string? Type { get; set; } // credit, debit
+        public bool? LockedPurchases { get; set; } // Requiere habilitar homebanking ej itau
+        public string? ExternalId { get; set; }
+        public string? PictureUrl { get; set; }
         public bool Enabled { get; set; }
     }
+
     public class PaymentIssuerSettingsDto
     {
         public BinSettingsDto Bin { get; set; }
