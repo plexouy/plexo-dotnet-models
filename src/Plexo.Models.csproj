@@ -13,7 +13,7 @@
     <RepositoryUrl>https://github.com/plexouy/plexo-dotnet-models</RepositoryUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <LangVersion>default</LangVersion>
-    <Nullable>annotations</Nullable>
+    <Nullable>warnings</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
