@@ -45,6 +45,10 @@ namespace Plexo.Models
         ShippingPhoneNumber,
         InternalPaymentCallback,
         CustomInvoiceNumber,
+        VATAmount,
+        CrossBankTransfers,
+        SourceBank,
+        DestinationBank,
 
         //Provider Related Information starts at 0x400
         Provider = 0x0401, //Example Visa
