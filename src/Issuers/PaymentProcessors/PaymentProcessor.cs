@@ -10,7 +10,6 @@ namespace Plexo.Models
         public string Acquirer { get; set; }
 
         [DataMember]
-        public List<CommerceField> Fields { get; set; }
+        public List<PaymentProcessorField> Fields { get; set; }
     }
-
 }
