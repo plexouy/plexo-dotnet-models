@@ -91,6 +91,9 @@ namespace Plexo.Models
         PaymentProcessorId,
         LoanPaybackDate,
         LoanFeeAmount,
+        FingerprintOrgID,
+        FingerprintSessID,
+        VoidCVVValidation,
         //Secure Information Starts at 0x8100  //Private Flag + User Flag
         //Secure User Generic Information
         Pan = 0x8101,
