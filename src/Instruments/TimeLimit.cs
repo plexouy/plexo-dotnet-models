@@ -6,7 +6,7 @@ namespace Plexo.Models
     [DataContract]
     public class TimeLimit
     {
-        [DataMember] public int SecondsLeft;
+        [DataMember] public int SecondsLeft { get; set; }
 
         [DataMember] public FieldType RequirementAfterTimeLimit { get; set; }
     }
