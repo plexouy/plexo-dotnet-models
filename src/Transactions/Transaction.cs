@@ -40,5 +40,6 @@ namespace Plexo.Models
 
         [DataMember] public long UTCUnixTimeExpiration { get; set; }
         [DataMember] public decimal? LoyaltyProgramAmount { get; set; }
+        [DataMember] public int? PaymentFacilitatorId { get; set; }
     }
 }
