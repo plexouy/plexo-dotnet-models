@@ -102,6 +102,8 @@ namespace Plexo.Models
         IssuerFeeAmount,
         TaxDiscountAmount,
         TaxDiscountLaw,
+        BuyerFeeRate,
+        IssuerFeeRate,
 
         //Secure Information Starts at 0x8100  //Private Flag + User Flag
         //Secure User Generic Information
