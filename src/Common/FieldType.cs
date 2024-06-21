@@ -49,6 +49,7 @@ namespace Plexo.Models
         CrossBankTransfers,
         SourceBank,
         DestinationBank,
+        Cryptogram,
 
         //Provider Related Information starts at 0x400
         Provider = 0x0401, //Example Visa
