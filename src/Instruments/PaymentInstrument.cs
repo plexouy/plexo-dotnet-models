@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
+using Plexo.Models.Instruments;
 
 namespace Plexo.Models
 {
     [DataContract]
-    public class PaymentInstrument
+    public class PaymentInstrument : PaymentInstrumentExtended
     {
         [DataMember] public string InstrumentToken { get; set; }
 
