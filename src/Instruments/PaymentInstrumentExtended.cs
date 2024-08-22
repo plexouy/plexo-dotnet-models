@@ -9,7 +9,7 @@ namespace Plexo.Models.Instruments
     public class PaymentInstrumentExtended
     {
         [DataMember]
-        public string BINInformation { get; set; }
+        public string BinInformation { get; set; }
         [DataMember]
         public string Country { get; set; }
     }
