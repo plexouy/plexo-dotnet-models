@@ -10,5 +10,6 @@ namespace Plexo.Models
 
         [DataMember] public string OptionalMetadata { get; set; }
         [DataMember] public string OptionalBIN { get; set; }
+        [DataMember] public string OptionalCountry { get; set; }
     }
 }
