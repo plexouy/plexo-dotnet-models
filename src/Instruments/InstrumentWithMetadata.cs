@@ -7,9 +7,7 @@ namespace Plexo.Models
     public class InstrumentWithMetadata
     {
         [DataMember] public PaymentInstrument PaymentInstrument { get; set; }
-
         [DataMember] public string OptionalMetadata { get; set; }
         [DataMember] public string OptionalBIN { get; set; }
-        [DataMember] public string OptionalCountry { get; set; }
     }
 }
