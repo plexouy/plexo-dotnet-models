@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Text;
 
 namespace Plexo.Models
 {
@@ -12,6 +9,5 @@ namespace Plexo.Models
 
         [DataMember]
         public SplitRequest PaymentData { get; set; }
-
     }
 }
