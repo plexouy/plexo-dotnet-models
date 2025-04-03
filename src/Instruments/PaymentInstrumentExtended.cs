@@ -12,5 +12,7 @@ namespace Plexo.Models.Instruments
         public string BinInformation { get; set; }
         [DataMember]
         public string Country { get; set; }
+        [DataMember]
+        public string UniqueIDInformation { get; set; }
     }
 }
