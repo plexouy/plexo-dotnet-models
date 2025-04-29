@@ -14,6 +14,4 @@ namespace Plexo.Models
         [DataMember]
         public bool? Disable3DS { get; set; }
     }
-
-
 }
