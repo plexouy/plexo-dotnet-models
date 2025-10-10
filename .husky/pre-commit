@@ -1,0 +1,20 @@
+#!/bin/sh
+# Husky pre-commit hook to run dotnet format
+
+export PATH="$PATH:$HOME/.dotnet/tools"
+
+echo "🔍 Running pre-commit checks..."
+
+# Run .NET formatting
+echo "📦 Checking .NET formatting..."
+dotnet format --verify-no-changes --verbosity quiet
+DOTNET_RESULT=$?
+
+if [ $DOTNET_RESULT -ne 0 ]; then
+  echo "❌ .NET formatting issues found. Running formatter..."
+  dotnet format
+  echo "✅ .NET code formatted. Please review changes and commit again."
+  exit 1
+fi
+
+echo "✅ .NET formatting check passed"
