@@ -15,4 +15,9 @@
     <LangVersion>default</LangVersion>
     <Nullable>warnings</Nullable>
   </PropertyGroup>
+
+  <Target Name="PostClean" AfterTargets="Clean">
+    <RemoveDir Directories="$(BaseIntermediateOutputPath)" /> <!-- obj -->
+    <RemoveDir Directories="$(BaseOutputPath)" /> <!-- bin -->
+  </Target>
 </Project>
