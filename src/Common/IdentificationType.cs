@@ -1,4 +1,4 @@
-﻿namespace Plexo.Models
+namespace Plexo.Models
 {
     public enum IdentificationType
     {

@@ -1,5 +1,3 @@
-using Plexo.Models;
-
 namespace Plexo.Models
 {
     public class SignatureException : ResultCodeException

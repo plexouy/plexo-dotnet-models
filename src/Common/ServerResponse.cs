@@ -1,6 +1,5 @@
-﻿using System.Collections.Generic;
+using System.Collections.Generic;
 using System.Runtime.Serialization;
-using Plexo.Models;
 
 namespace Plexo.Models
 {

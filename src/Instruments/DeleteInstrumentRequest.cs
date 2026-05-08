@@ -1,5 +1,4 @@
-﻿using System.Runtime.Serialization;
-using Plexo.Models;
+using System.Runtime.Serialization;
 
 namespace Plexo.Models
 {
