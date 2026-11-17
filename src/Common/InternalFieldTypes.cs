@@ -42,7 +42,6 @@ namespace Plexo.Models
         /// </list>
         /// <para><strong>Security:</strong> Never expose in logs, responses, or error messages. Rotate regularly per processor policy.</para>
         /// </remarks>
-        /// <example>"sk_live_51MbxYz2eZvKYlo2C..." (Stripe) or "AQEvhmfx..." (Adyen)</example>
         ProviderApiKey
     }
 }
