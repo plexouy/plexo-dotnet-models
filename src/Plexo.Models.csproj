@@ -12,9 +12,14 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <RepositoryUrl>https://github.com/plexouy/plexo-dotnet-models</RepositoryUrl>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
     <LangVersion>default</LangVersion>
     <Nullable>warnings</Nullable>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
   <Target Name="PostClean" AfterTargets="Clean">
     <RemoveDir Directories="$(BaseIntermediateOutputPath)" /> <!-- obj -->
