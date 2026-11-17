@@ -108,6 +108,7 @@ namespace Plexo.Models
         AmountBrl,
         KoinMerchantId,
         MerchantEnrollmentDate,
+        InstallmentPlan12,
 
         //Secure Information Starts at 0x8100  //Private Flag + User Flag
         //Secure User Generic Information
